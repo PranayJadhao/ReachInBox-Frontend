@@ -1,0 +1,46 @@
+.side-panel {
+  background-color:#101012;
+  /* width: 200px; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  color: white;
+}
+
+.side-panel-items {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.side-panel-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.side-panel-item span {
+  margin-left: 10px;
+}
+
+.profile-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.profile-icon:hover {
+  background-color: #ccc;
+}
